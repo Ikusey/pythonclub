@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pythonclubdb',
         'USER' : 'postgres',
-        'PASSWORD': 'p@ssw0rd1',
+        'PASSWORD': 'p@ssword1',
         'HOST' :'localhost',
         'PORT' :'',
     }
