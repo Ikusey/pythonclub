@@ -5,6 +5,6 @@ from django.shortcuts import render
 def index (request):
     return render(request, 'club/index.html')
 
-def gettypes(request):
+def getresources(request):
     type_list=Resource.objects.all()
     return render(request, 'club/resources.html' ,{'type_list' : type_list})
