@@ -43,7 +43,6 @@ class Resource(models.Model):
         db_table='resource'
         verbose_name_plural='resources'
 
-
 class Event(models.Model):
     eventtitle=models.CharField(max_length=255)
     eventlocation=models.CharField(max_length=255)
