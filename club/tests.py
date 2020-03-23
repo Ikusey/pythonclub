@@ -35,5 +35,3 @@ class ResourceTest(TestCase):
     def test_table(self):
         self.assertEqual(str(Resource._meta.db_table), 'resource')
 
-
-
