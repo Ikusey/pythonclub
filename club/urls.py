@@ -8,4 +8,6 @@ urlpatterns=[
     path('meetingdetails/<int:id>', views.meetingdetails, name='meetingdetails'),
     path('newMeeting/', views.newMeeting, name= 'newMeeting'),
     path('newResource/', views.newResource, name= 'newResource'),
+    path('loginmessage/', views.loginmessage, name='loginmessage'),
+    path('logoutmessage/', views.logoutmessage, name='logoutmessage'),
 ]
