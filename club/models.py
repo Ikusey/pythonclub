@@ -6,7 +6,7 @@ class Meeting(models.Model):
     meetingdate=models.DateField()
     meetingtime=models.TimeField()
     meetinglocation=models.CharField(max_length=255)
-    meetingagenda=models.TextField()
+    meetingagenda=models.TextField(max_length=255, null=True, blank=True)
 
     def __str__(self):
         return self.meetingtitle
@@ -57,3 +57,4 @@ class Event(models.Model):
     class Meta:
         db_table='event'
         verbose_name_plural='events'
+
